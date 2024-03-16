@@ -1,0 +1,300 @@
+body {
+    background-color: #EEEEEE;
+}
+
+.reservation {
+    background-color: #EEEEEE;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.header {
+    width: 50%;
+}
+
+.header-title {
+    margin-top: 10px;
+}
+
+.header-title-logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #305dff;
+    border: none;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.reservation-form {
+    width: 80%;
+    height: 500px;
+    margin-top: 650px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #305dff;
+    border-radius: 5px;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.reservation-form_title {
+    color: white;
+    height: 70px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+
+.date-box {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.date-box-input {
+    width: 45%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+
+.time-box {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.time-box-input {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+
+.number-box {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.number-box-input {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+
+.reservation-confirm {
+    border-radius: 5px;
+    background-color: #4d7fff;
+    width: 80%;
+    height: 150px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.reservation-confirm-content {
+    display: flex;
+    margin-top: 5px;
+}
+
+
+.list-name {
+    color: white;
+    margin-left: 15px;
+    font-weight: 600;
+    width: 100px;
+
+}
+
+.list-content {
+    height: 100%;
+    font-weight: 600;
+    color: white;
+}
+
+.reservation-button {
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 20%;
+    margin-bottom: 0%;
+}
+
+.submit {
+    color: white;
+    border: none;
+    background-color: #0538ff;
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.form_error {
+    margin-top: -15px;
+    color: red;
+    margin-left: 15px;
+}
+
+.form_error_member {
+    margin-top: 0px;
+    color: red;
+    margin-left: 15px;
+}
+
+@media screen and (min-width:768px){
+    body {
+        background-color: #EEEEEE;
+    }
+
+    .reservation {
+        background-color: #EEEEEE;
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+    }
+
+    .header {
+        width: 50%;
+    }
+
+    .header-title {
+        margin-top: 10px;
+    }
+
+    .header-title-logo {
+        font-size: 30px;
+        font-weight: bold;
+        color: #305dff;
+        border: none;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+
+    .reservation-form {
+        width: 50%;
+        height: 620px;
+        margin-top: 20px;
+        margin-right: 10%;
+        margin-left: 10%;
+        background-color: #305dff;
+        border-radius: 5px;
+        position: relative;
+        padding-bottom: 3rem;
+    }
+
+    .reservation-form_title {
+        color: white;
+        height: 70px;
+        font-size: 25px;
+        font-weight: bolder;
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+
+
+    .date-box {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+
+    .date-box-input {
+        width: 45%;
+        border-radius: 5px;
+        border: none;
+        height: 25px;
+    }
+
+    .time-box {
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .time-box-input {
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        height: 25px;
+    }
+    .number-box{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .number-box-input {
+        width: 100%;
+        border-radius: 5px;
+        border: none;
+        height: 25px;
+    }
+
+    .reservation-confirm {
+        border-radius: 5px;
+        background-color: #4d7fff;
+        width: 80%;
+        height: 150px;
+        margin-left: 15px;
+        margin-top: 15px;
+        padding-top: 10px;
+    }
+
+    .reservation-confirm-content {
+        display: flex;
+        margin-top: 5px;
+    }
+
+
+    .list-name {
+        color: white;
+        margin-left: 15px;
+        font-weight: 600;
+        width: 100px;
+
+    }
+
+    .list-content {
+        height: 100%;
+        font-weight: 600;
+        color: white;
+    }
+
+    .reservation-button {
+
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-top: 125px;
+    }
+
+    .submit {
+        color: white;
+        border: none;
+        background-color: #0538ff;
+        width: 100%;
+        height: 50px;
+        margin-top: 120px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .form_error {
+        margin-top: -15px;
+        color: red;
+        margin-left: 15px;
+    }
+
+    .form_error_member {
+        margin-top: 0px;
+        color: red;
+        margin-left: 15px;
+    }
+}

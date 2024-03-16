@@ -1,0 +1,91 @@
+
+.registration {
+    height: 500px;
+}
+
+.registration-form {
+    background-color: white;
+    width: 380px;
+    height: 330px;
+    margin: 10% auto;
+    box-shadow: 3px 3px 4px -2px gray;
+    border-radius: 5px;
+}
+
+.registration-form_title {
+    background-color: #0066FF;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.title-content {
+    margin-top: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.registration-form_input {
+    margin-top: 20px;
+    height: 200px;
+}
+
+.input {
+    width: 380px;
+    margin: 0 0 0 auto;
+}
+
+.form_input {
+    display: flex;
+    height: 50px;
+}
+
+.username-icon {
+    margin-left: 20px;
+}
+
+.email-icon {
+    margin-left: 20px;
+}
+
+.password-icon {
+    margin-left: 20px;
+}
+
+.form {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 280px;
+    height: 30px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 0px;
+}
+
+.registration-button {
+    margin-top: 0px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.button {
+    width: 60px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0066FF;
+    color: white;
+    cursor: pointer;
+}
+
+.form_error {
+    height: 20px;
+    font-size: 13px;
+    color: red;
+    margin-left: 60px;
+}

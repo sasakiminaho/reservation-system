@@ -1,0 +1,129 @@
+.review {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.review-box {
+    border-radius: 5px;
+    width: 80%;
+    background-color: white;
+}
+
+.review-title {
+    background-color: #305dff;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 40px;
+    padding-top: 8px;
+}
+
+.review-input-star {
+    display: flex;
+}
+
+.star {
+    font-size: 30px;
+    margin-left: 35px;
+}
+
+.star-select {
+    height: 30px;
+    margin-top: 40px;
+    border: none;
+    font-size: 25px;
+}
+
+.review-input-comment {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.comment {
+    width: 80%;
+}
+
+.submit_button {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0066FF;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (min-width:768px){
+.review {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .review-box {
+        border-radius: 5px;
+        width: 50%;
+        background-color: white;
+    }
+
+    .review-title {
+        background-color: #305dff;
+        color: white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        height: 40px;
+        padding-top: 8px;
+    }
+
+    .review-input-star {
+        display: flex;
+    }
+
+    .star {
+        font-size: 30px;
+        margin-left: 35px;
+    }
+
+    .star-select {
+        height: 30px;
+        margin-top: 40px;
+        border: none;
+        font-size: 25px;
+    }
+
+    .review-input-comment {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .comment {
+        width: 80%;
+    }
+
+    .submit_button {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .submit {
+        width: 70px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        background-color: #0066FF;
+        color: white;
+        cursor: pointer;
+    }
+}
+

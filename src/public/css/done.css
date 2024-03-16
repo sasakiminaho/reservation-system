@@ -1,0 +1,37 @@
+.done {
+    display: flex;
+    justify-content: center;
+
+}
+
+.done_box {
+    border-radius: 3px;
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 3px 3px 4px -2px gray;
+    margin-top: 45px;
+}
+
+.done_message {
+    margin-top: 90px;
+}
+
+.message {
+    font-size: 20px;
+}
+
+.return_button {
+    margin-top: 60px;
+}
+
+.button {
+    border: none;
+    text-decoration: none;
+    background-color: #0066FF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}

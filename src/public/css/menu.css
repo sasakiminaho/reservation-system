@@ -1,0 +1,28 @@
+.menu {
+    height: 500px;
+}
+
+.menu-list {
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.menu-list-content {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.list-name {
+    text-decoration: none;
+    color: #305dff;
+}
+
+.list-name-logout {
+    background-color: white;
+    border: white;
+    color: #305dff;
+    font-weight: 600;
+    font-size: 25px;
+}

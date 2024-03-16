@@ -1,0 +1,140 @@
+.reservation {
+    background-color: #EEEEEE;
+    height: 50px;
+}
+
+.header {
+    width: 50%;
+}
+
+.header-title {
+    margin-top: 10px;
+}
+
+.header-title-logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0066FF;
+    border: none;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.search {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.search-box {
+    background-color: white;
+    display: flex;
+    height: 30px;
+    width: 100%;
+}
+
+.search-select_box {
+    width: 50%;
+    display: flex;
+}
+
+.search-box-area {
+    width: 50%;
+    border: none;
+}
+
+.search-box-genre {
+    width: 50%;
+    border: none;
+}
+
+.search-box-word {
+    width: 50%;
+    border: none;
+}
+
+.search-box-word_box {
+    width: 100%;
+    margin-top: 7px;
+    height: 65%;
+    border: none;
+}
+
+.search_button {
+    border: none;
+    background-color: white;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+@media screen and (min-width:768px){
+    .reservation {
+            background-color: #EEEEEE;
+            display: flex;
+            height: 50px;
+    }
+    
+    .header {
+        width: 50%;
+    }
+
+    .header-title {
+        margin-top: 10px;
+    }
+
+    .header-title-logo {
+        font-size: 30px;
+        font-weight: bold;
+        color: #0066FF;
+        border: none;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+
+    .search {
+        margin-top: 10px;
+        width: 55%;
+    }
+
+    .search-box {
+        background-color: white;
+        display: flex;
+        height: 40px;
+    }
+
+    .search-select_box {
+        width: 50%;
+        display: flex;
+    }
+
+    .search-box-area {
+        width: 50%;
+        border: none;
+    }
+
+    .search-box-genre {
+        width: 50%;
+        border: none;
+    }
+
+    .search-box-word {
+        width: 50%;
+        border: none;
+    }
+
+    .search-box-word_box {
+        width: 100%;
+        margin-top: 7px;
+        height: 65%;
+        border: none;
+    }
+
+    .search_button {
+        border: none;
+        background-color: white;
+    }
+
+    body {
+        background-color: #EEEEEE;
+    }
+}

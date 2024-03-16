@@ -1,0 +1,358 @@
+.my_page {
+    height: 700px;
+}
+
+.user_name {
+    width: 80%;
+    padding-left: 40%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.reservation-mine {
+    width: 100%;
+}
+
+.reservation-status {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.reservation-box {
+    background-color: #305dff;
+    color: white;
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px -2px black;
+}
+
+.reservation-title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.clock {
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.reservation_delete {
+    margin-top: 1px;
+    margin-right: 10px;
+    color: white;
+}
+
+.reservation-detail {
+    display: flex;
+}
+
+.detail {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.change {
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.change_button {
+    text-decoration: none;
+    color: #305dff;
+
+}
+
+.review {
+    background-color: white;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.review_button {
+    text-decoration: none;
+    color: #305dff;
+
+}
+
+.favorite {
+    width: 100%;
+}
+
+.favorite-shop-title {
+    margin-left: 5%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.favorite-shop {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.favorite_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.shop {
+    width: 80%;
+    height: 260px;
+    background-color: white;
+    margin-right: 1%;
+    margin-top: 5px;
+    margin-bottom: 3%;
+    box-shadow: 2px 2px 4px -2px gray;
+    border-radius: 3px;
+}
+
+.shop-image {
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 2px 0px 4px -2px gray;
+}
+
+.shop-name {
+    padding-top: 8px;
+    padding-left: 12px;
+    font-weight: bolder;
+}
+
+.shop-hashtag {
+    padding-top: 4px;
+    padding-left: 12px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-detail {
+    width: 50%;
+    text-decoration: none;
+    background-color: #305dff;
+    color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 5px 3px;
+    text-align: center;
+    font-size: 80%;
+
+}
+
+.shop-favorite {
+    border: none;
+    background-color: white;
+}
+
+.favo {
+    margin-right: 10px;
+}
+@media screen and (min-width:768px){
+    .my_page {
+        display: flex;
+        height: 700px;
+    }
+
+    .user_name {
+        width: 80%;
+        padding-left: 40%;
+        height: 50px;
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    .reservation-mine {
+        width: 40%;
+    }
+
+    .reservation-status {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+
+    .reservation-box {
+        background-color: #305dff;
+        color: white;
+        width: 60%;
+        height: 300px;
+        margin-left: 20%;
+        margin-top: 20px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 8px -2px black;
+    }
+
+    .reservation-title {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+
+    .clock {
+        margin-right: 5px;
+        margin-top: -3px;
+    }
+
+    .reservation_delete {
+        margin-top: 1px;
+        margin-right: 10px;
+        color: white;
+    }
+
+    .reservation-detail {
+        display: flex;
+    }
+
+    .detail {
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    .change {
+        background-color: white;
+        width: 50%;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+
+    .change_button {
+        text-decoration: none;
+        color: #305dff;
+
+    }
+
+    .review {
+        background-color: white;
+        width: 80%;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .review_button {
+        text-decoration: none;
+        color: #305dff;
+
+    }
+
+    .favorite {
+        width: 60%;
+    }
+
+    .user_name {
+        margin-left: 5%;
+        height: 50px;
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    .favorite-shop-title {
+        margin-left: 5%;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .favorite-shop {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .favorite_list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        width: 50%;
+    }
+
+    .shop {
+        width: 80%;
+        height: 260px;
+        background-color: white;
+        margin-right: 1%;
+        margin-top: 5px;
+        margin-bottom: 3%;
+        box-shadow: 2px 2px 4px -2px gray;
+        border-radius: 3px;
+    }
+
+    .shop-image {
+        width: 100%;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        box-shadow: 2px 0px 4px -2px gray;
+    }
+
+    .shop-name {
+        padding-top: 8px;
+        padding-left: 12px;
+        font-weight: bolder;
+    }
+
+    .shop-hashtag {
+        padding-top: 4px;
+        padding-left: 12px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .shop-detail {
+        width: 50%;
+        text-decoration: none;
+        background-color: #305dff;
+        color: white;
+        border-radius: 5px;
+        margin-left: 15px;
+        padding: 5px 3px;
+        text-align: center;
+        font-size: 80%;
+
+    }
+
+    .shop-favorite {
+        border: none;
+        background-color: white;
+    }
+
+    .favo {
+        margin-right: 10px;
+    }
+}

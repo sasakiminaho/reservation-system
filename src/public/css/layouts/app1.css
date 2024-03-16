@@ -1,0 +1,35 @@
+@media screen and (min-width:768px) {
+    image{
+        width: 100%;
+    }
+}
+
+.reservation {
+    background-color: #EEEEEE;
+    display: flex;
+    height: 50px;
+}
+
+.header {
+    width: 50%;
+}
+.rese {
+    margin-top: -5px;
+    margin-right: 5px;
+}
+.header-title {
+    margin-top: 10px;
+}
+
+.header-title-logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0066FF;
+    border: none;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+body {
+    background-color: #EEEEEE;
+}

@@ -1,0 +1,145 @@
+.main {
+    background-color: #EEEEEE;
+}
+
+.shop_list1 {
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop {
+    width: 45%;
+    box-sizing: border-box;
+    height: 260px;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    margin-bottom: 3%;
+    box-shadow: 2px 2px 4px -2px gray;
+    border-radius: 3px;
+}
+
+.shop-image {
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 2px 0px 4px -2px gray;
+}
+
+.shop-name {
+    padding-top: 8px;
+    padding-left: 12px;
+    font-weight: bolder;
+}
+
+.shop-hashtag {
+    padding-top: 4px;
+    padding-left: 12px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail {
+    width: 50%;
+    text-decoration: none;
+    background-color: #305dff;
+    color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 5px 3px;
+    text-align: center;
+    font-size: 80%;
+
+}
+
+.shop-favorite {
+    border: none;
+    background-color: white;
+}
+
+.favo {
+    margin-right: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .main {
+            background-color: #EEEEEE;
+        }
+    
+    .shop_list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .shop_list1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .shop {
+        width: 20%;
+        height: 260px;
+        background-color: white;
+        margin-right: 1%;
+        margin-top: 5px;
+        margin-bottom: 3%;
+        box-shadow: 2px 2px 4px -2px gray;
+        border-radius: 3px;
+    }
+
+    .shop-image {
+        width: 100%;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        box-shadow: 2px 0px 4px -2px gray;
+    }
+
+    .shop-name {
+        padding-top: 8px;
+        padding-left: 12px;
+        font-weight: bolder;
+    }
+
+    .shop-hashtag {
+        padding-top: 4px;
+        padding-left: 12px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .detail {
+        width: 50%;
+        text-decoration: none;
+        background-color: #305dff;
+        color: white;
+        border-radius: 5px;
+        margin-left: 15px;
+        padding: 5px 3px;
+        text-align: center;
+        font-size: 80%;
+
+    }
+
+    .shop-favorite {
+        border: none;
+        background-color: white;
+    }
+
+    .favo {
+        margin-right: 10px;
+    }
+}
